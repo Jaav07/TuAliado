@@ -1,0 +1,40 @@
+name: frontend_flutter
+description: "TuAliado - Aplicación Móvil y PWA en Flutter para la gestión de salud con empatía."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  cupertino_icons: ^1.0.6
+  pdf: ^3.13.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.6
+  file_picker: 10.3.8
+  permission_handler: ^11.3.1
+  supabase_flutter: ^2.8.0
+  image_picker: ^1.2.3
+  http: ^1.6.0
+  get_it: ^7.7.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Esfera3D_TuAliado.jpeg
+    - assets/Esfera3D_Tu.png
+
+# Iconos de la app (ejecutar: flutter pub run flutter_launcher_icons)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
