@@ -45,6 +45,8 @@ Gestionar la salud suele implicar documentos, órdenes, autorizaciones, medicame
 
    ## Configuración de API Key (Google AI Studio) / API Key Setup
 
+---
+
 **TuAliado** se publica sin claves de API incluidas en el código por seguridad. Para utilizar las funciones asistidas por IA (como la interpretación de resultados de laboratorio o el apoyo en organización de salud), cada usuario o colaborador debe configurar su propia **Google AI Studio API Key**.
 
 ### Español
